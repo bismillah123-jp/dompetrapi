@@ -13,15 +13,15 @@
     "preview": "vite preview --host 127.0.0.1 --port 8787"
   },
   "dependencies": {
-    "@supabase/supabase-js": "latest",
-    "chart.js": "latest",
-    "lucide-react": "latest",
-    "react": "latest",
-    "react-chartjs-2": "latest",
-    "react-dom": "latest"
+    "@supabase/supabase-js": "2.106.2",
+    "chart.js": "4.5.1",
+    "lucide-react": "1.16.0",
+    "react": "19.2.6",
+    "react-chartjs-2": "5.3.1",
+    "react-dom": "19.2.6"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "latest",
-    "vite": "latest"
+    "@vitejs/plugin-react": "6.0.2",
+    "vite": "8.0.14"
   }
 }
