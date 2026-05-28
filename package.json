@@ -1,0 +1,23 @@
+{
+  "name": "dompetrapi",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 8787",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 8787"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "latest",
+    "chart.js": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-chartjs-2": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest"
+  }
+}
