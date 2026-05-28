@@ -4,11 +4,11 @@ DompetRapi adalah MVP SaaS pengelolaan keuangan pribadi berbasis Vite + React. A
 
 ## Menjalankan Demo Lokal
 
-Package manager lokal sudah tersedia di `.tools/pnpm`. Jalankan:
+Install dependency, lalu jalankan dev server:
 
 ```powershell
-$node = "C:\Users\ikhsa\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe"
-& $node "node_modules\.pnpm\vite@8.0.14\node_modules\vite\bin\vite.js" --host 127.0.0.1 --port 8787 --strictPort
+npm install
+npm run dev
 ```
 
 Lalu buka `http://127.0.0.1:8787/index.html`. Jika `config.js` belum ada, app otomatis masuk demo mode read-only dengan data contoh.
@@ -22,8 +22,7 @@ Lalu buka `http://127.0.0.1:8787/index.html`. Jika `config.js` belum ada, app ot
 5. Jalankan build, lalu deploy folder `dist` ke static hosting:
 
 ```powershell
-$node = "C:\Users\ikhsa\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe"
-& $node "node_modules\.pnpm\vite@8.0.14\node_modules\vite\bin\vite.js" build
+npm run build
 ```
 
 Untuk Google OAuth, aktifkan provider Google di Supabase Auth dan masukkan redirect URL domain tempat app di-host.
